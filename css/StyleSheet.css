@@ -1,0 +1,365 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    user-select: none;
+    
+}
+.liquid-button {
+    margin: auto;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+}
+
+    .liquid-button path {
+        cursor: pointer;
+        font-family: Raleway, sans-serif;
+        font-size: 12px;
+    }
+a {
+    text-decoration: none;
+}
+header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 70% 30%;
+}
+#mobile_menu_a {
+    display: none;
+}
+.menu_text {
+    display: none;
+}
+.nav_cont {
+    width: 100%;
+    height: 390px;
+    margin-top: 10px;
+    margin-left: 10px;
+ 
+}
+.nav_cont ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    color:black;
+}
+.menu_item {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+
+}
+.menu_item:hover {
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.menu_item:active {
+    color: black;
+    font-weight: 700;
+
+}
+.btn {
+    background: linear-gradient(to right,#1616cf, #884eff);
+    width: 265px;
+    text-align: center;
+    border-radius: 38px;
+}
+.proc_title {
+    color: #3c3c3c;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+
+}
+.proc_title_text {
+    color: #3c3c3c;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    
+}
+.proc_info_icon {
+    width: 100%;
+    height: 147px;
+    background-size: 75px 120px;
+    background-position: top center;
+    background-repeat:no-repeat;
+
+}
+#proc_icon_man {
+    background-image: url(../images/proc_icon_man.png);
+}
+#proc_icon_win {
+    background-image: url(../images/proc_icon_win.png);
+}
+#proc_icon_lift {
+    background-image: url(../images/proc_icon_lift.png);
+    background-size: 100px 130px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+#proc_icon_pc {
+    background-image: url(../images/proc_icon_pc.png);
+    background-size: 120px 125px;
+    margin-top: 12px;
+    height: 144px;
+}
+#proc_icon_win2 {
+    background-image: url(../images/proc_icon_win2.png);
+    background-size: 95px;
+    height: 140px;
+}
+#proc_icon_pc2 {
+    background-image: url(../images/proc_icon_pc2.png);
+    background-size: 120px;
+}
+.proc_info_title {
+    width: 26%;
+    margin: auto;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 2.6vw;
+    color: #3c3c3c;
+    letter-spacing: 0.047em;
+
+}
+.proc_info_text {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 2.1vw;
+    color: #3c3c3c;
+    padding-top: 10px;
+    letter-spacing: 0.045em;
+    line-height: 27px;
+}
+.service_title {
+    color: #3c3c3c;
+}
+.service_title_h2 {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.04em;
+    color: #3c3c3c;
+    font-weight: 700;
+}
+.service_text {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.04em;
+    color: #3c3c3c;
+    font-weight: 400;
+}
+.service_plus_title {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.04em;
+    color: #3c3c3c;
+    font-weight: 600;
+
+}
+.service_plus_text {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.04em;
+    color: #3c3c3c;
+    font-weight: 400;
+}
+.btn a{
+    font-family: Raleway, sans-serif;
+    color: white;
+    letter-spacing: 0.04em;
+    
+}
+.service_photo {
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:40px;
+}
+#service_template {
+    background-image: url(../images/service_template.png);
+}
+#service_site {
+    background-image: url(../images/service_site.png);
+}
+#service_redesign {
+    background-image: url(/images/service_redesign.png);
+}
+#service_bigsite {
+    background-image: url(/images/service_bigsite.png);
+
+}
+#service_layout {
+    background-image: url(/images/sevice_layot.png);
+}
+    /*TODO: Don't work it fucking media<1000px ?!*/
+    @media (max-width:1000px) {
+        body {
+     background-image: url(../images/header_bg.png);
+     background-repeat: no-repeat;
+     background-size: 95%;
+    
+    }
+    .logo {
+        
+        background: url(../images/logo.png) no-repeat;
+        background-size: 25%;
+        background-position-x: 83%;
+        background-position-y: 50px;
+        
+    }
+    
+    .nav_cont {
+        background: url(../images/menu_m.png) no-repeat 30px 40px;
+        background-repeat: no-repeat;
+        background-size: 110px 75px;
+
+    }
+
+    .nav_cont ul {
+        display: none;
+    }
+
+    .nav_open {
+        display: grid;
+        grid-template-rows: 1fr repeat(5, 65px);
+        grid-template-columns: 44%;
+        background-image: url(../images/menu_m_hover.png);
+        background-repeat: no-repeat;
+        background-position-x: 40px;
+        background-position-y: 30px;
+        background-color: white;
+        height: 390px;
+        width: 50%;
+    }
+
+    .nav_open .menu_text {
+        display: block;
+        padding: 55px 0px 10px 180px;
+        font-size: 18px;
+        font-weight: 900;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+     .nav_open ul {
+         display: block;
+       
+         color: black;
+
+     }
+     .nav_open ul li{
+         padding-top: 45px;
+         padding-left: 40px;
+     }
+
+     .title {
+         font-family: Raleway, sans-serif;
+         font-size: 30pt;
+         color: white;
+         font-weight: 700;
+         line-height: 100px;
+         letter-spacing: 2.4px;
+         padding-top: 50px;
+         padding-left: 30px;
+     }
+     .title_text {
+         font-family: Montserrat, sans-serif;
+         color:white;
+         padding-top: 45px;
+         padding-left: 40px;
+         line-height: 40px;
+         font-size: 2.4vw;
+         width: 80%;
+         letter-spacing: 0.72pt;
+     }
+    .liquid-button {
+        margin: auto;
+        margin-top: 12px;
+    }
+    .proc_cont {
+        color: black;
+        margin-top: 611px;
+
+    }
+    .proc_title {
+        color: #3c3c3c;
+        font-size: 4.2vw;
+        font-weight: 600;
+        padding-left: 10px;
+        letter-spacing: 0.045em;
+        line-height: 64px;
+        padding-top: 67px;
+    }
+    .proc_title_text {
+        font-size: 2.4vw;
+        font-weight: 400;
+        letter-spacing: 0.045em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .arrow {
+        background: url(../images/arrow.png) no-repeat;
+        background-position: bottom center;
+        background-size: 34px 55px;
+        height: 80px;
+    }
+    #proc_icon_man {
+        margin-top: 35px;
+    }
+    #proc_icon_win {
+        background-size: 95px 130px;
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+    #last_arrow {
+        background-position: top center;
+        height: 70px;
+    }
+    .service_title {
+        font-size: 3vw;
+        color: #3c3c3c;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .service {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 40px 60% 1fr;
+    }
+    .service_title_h2 {
+        font-family: Raleway, sans-serif;
+        font-size: 3.2vw;
+        color: #3c3c3c;
+        font-weight: 600;
+    }
+    .service_text, .service_plus_text {
+        font-family: Montserrat, sans-serif;
+        font-size: 1.9vw;
+        font-weight: 400;
+        color: #3c3c3c;
+        padding-top: 25px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+    }
+    .service_plus_text {
+        padding-top: 0px;
+    }
+    .service_plus_title {
+        font-family: Raleway, sans-serif;
+        font-size: 2.4vw;
+        font-weight: 500;
+        color: #3c3c3c;
+        padding-top: 27px;
+        letter-spacing: 0.11em;
+        padding-left: 2px;
+    }
+}
+
+
