@@ -68,6 +68,9 @@ header {
     width: 265px;
     text-align: center;
     border-radius: 38px;
+    margin: 40px auto;
+    padding: 20px;
+    
 }
 .proc_title {
     color: #3c3c3c;
@@ -186,14 +189,14 @@ header {
     background-image: url(../images/service_site.png);
 }
 #service_redesign {
-    background-image: url(/images/service_redesign.png);
+    background-image: url(../images/service_redesign.png);
 }
 #service_bigsite {
-    background-image: url(/images/service_bigsite.png);
+    background-image: url(../images/service_bigsite.png);
 
 }
 #service_layout {
-    background-image: url(/images/sevice_layot.png);
+    background-image: url(../images/sevice_layot.png);
 }
     /*TODO: Don't work it fucking media<1000px ?!*/
     @media (max-width:1000px) {
@@ -322,7 +325,7 @@ header {
         height: 70px;
     }
     .service_title {
-        font-size: 3vw;
+        font-size: 4.2vw;
         color: #3c3c3c;
         text-align: center;
         padding-top: 10px;
@@ -360,6 +363,19 @@ header {
         letter-spacing: 0.11em;
         padding-left: 2px;
     }
+    .service_plus_text ul {
+        list-style-type: none;
+    }
+    .gallery_title {
+        text-align: center;
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 4.2vw;
+        padding-top: 10px;
+        padding-left: 0;
+        color: #3c3c3c;
+    }
+    
 }
 
 
